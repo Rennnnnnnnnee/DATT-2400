@@ -20,6 +20,7 @@ float platformWidth = 75;
 float platformHeight = 5;
 
 //***SETUP
+
 PImage bg;
 
 void setup() {
@@ -56,8 +57,7 @@ void homeScreen() {
     text("GO!", width/2, height/2+110); 
     textSize(20); 
     text("click to start", width/2, height/2+180); 
-    //learned!width and height must by in their right placement in code,
-    //otherwise it would not center!)
+
 }
 
 void gameScreen() {
@@ -82,9 +82,6 @@ void gameScreen() {
    platformD();
    
    timer();
-   
-
- 
 }
 
 void overScreen() {
@@ -100,8 +97,6 @@ void overScreen() {
     text("click anywhere to battle him again before he leaves...", width/2, height/2+140); 
     textSize(10);
     text("oh no...it doesnt work :( he got away", width/2, height/2+160); 
-    //learned!width and height must by in their right placement in code,
-    //otherwise it would not center!)
 }
 
 void mousePressed() {
